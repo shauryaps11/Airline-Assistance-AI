@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(OPENAI_API_KEY=sk-test python3 -c ' *)"
+    ]
+  }
+}

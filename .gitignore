@@ -1,0 +1,22 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+venv/
+
+# Ignore environment variable files
+.env
+
+# Ignore system files (Mac)
+.DS_Store
+
+# Data — local SQLite + ChromaDB
+data/
+
+# Frontend build artifacts
+frontend/node_modules/
+frontend/dist/
+
+# Audio
+response.mp3
